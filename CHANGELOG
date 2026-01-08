@@ -10,6 +10,45 @@ Mengacu pada praktik terbaik dokumentasi pengembangan perangkat lunak dan format
 
 ---
 
+## 📅 2026
+
+### 🗓️ 8 Januari 2026
+- **Revisi format halaman pengesahan** (`laporan/untouch/xx-pengesahan.tex`)
+  - Mengubah format dari tabel 3 kolom menjadi layout side-by-side (2 kolom)
+  - Menambahkan "Tanggal Ujian" setelah informasi mahasiswa
+  - Menambahkan kata "Menyetujui" sebelum daftar pembimbing dan penguji
+  - Menambahkan kata "Mengesahkan" sebelum ketua jurusan dan koordinator prodi
+  - Menambahkan Ketua Program Studi berdampingan dengan Ketua Jurusan
+  - Format tanda tangan menggunakan kurung dengan titik-titik: `(...........)`
+  - Format sekarang 100% sesuai dengan laporan mahasiswa aktual
+- **Revisi format abstrak** (`laporan/a2-abstrak.tex` dan `laporan/a3-abstract.tex`)
+  - Menambahkan informasi pembimbing dengan format tabel
+  - Format: Nama, NIM, Pembimbing (dengan bullet points)
+  - Mengubah format "Kata kunci:" menjadi "Kata kunci :" (dengan spasi)
+  - Mengubah format "Key words:" menjadi "Key words :" (dengan spasi)
+  - Layout lebih informatif dan sesuai dengan format laporan mahasiswa
+- **Revisi format kata pengantar** (`laporan/a5-katapengantar.tex`)
+  - Mengubah dari numbered list (`\enumerate`) menjadi bullet points (`\itemize`)
+  - Update urutan ucapan terima kasih sesuai standar (orang tua, direktur, ketua jurusan, dll)
+  - Menghapus NIM dari footer kata pengantar (hanya nama)
+  - Menambahkan penutup yang lebih formal
+- **Revisi format proposal** (folder `proposal/`)
+  - **Halaman pengesahan proposal** (`proposal/untouch/xx-persetujuan-proposal.tex`)
+    - Revisi total: "LEMBAR PERSETUJUAN" → "HALAMAN PENGESAHAN"
+    - Tambah subtitle "PROPOSAL TUGAS AKHIR"
+    - Format tabel untuk Judul, Oleh, NIM
+    - Tambah informasi ujian: Telah diuji pada, Hari, Tanggal, Tempat
+    - Layout side-by-side: Dosen Penguji | Dosen Pembimbing
+    - Semua pihak dengan NIP
+  - **Abstrak dan Abstract proposal** (`proposal/a2-abstrak.tex` dan `proposal/a3-abstract.tex`)
+    - Update format sama dengan laporan (tambah info pembimbing)
+  - **Variabel baru** (`proposal/a0-identitas.tex`)
+    - Tambah `\hariujian`, `\tglujian`, `\tempatujian` untuk info ujian proposal
+- Penambahan dokumentasi `REVISI_HALAMAN_PENGESAHAN.md`
+- Penambahan panduan instalasi package LaTeX di `INSTALL_PACKAGES.md`
+
+---
+
 ## 📅 2024
 
 ### 🗓️ 24 Desember 2024
